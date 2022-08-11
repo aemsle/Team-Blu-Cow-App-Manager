@@ -6,7 +6,7 @@
  Create a script that derives from the `Module` class and `AddModule<YourNewModule>()` from another script.
  From here you can access your new module script by calling `GetModule<YourNewModule>()` anywhere in your project.
  
- ```'cs
+ ````cs
 private void Start()
 {
     blu.App.AddModule<TestModule>();
