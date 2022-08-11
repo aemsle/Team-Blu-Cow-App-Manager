@@ -34,7 +34,6 @@ namespace blu
 
         private void AddBaselineModules()
         {
-            AddModule<SceneModule>();
         }
 
         public static T GetModule<T>() where T : blu.Module
