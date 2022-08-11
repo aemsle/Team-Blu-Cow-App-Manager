@@ -3,19 +3,15 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
  
- Create a script that derives from the `Module` class. Call `AddModule<YourNewModule>()` in the app.cs `AddBaselineModules()`.
+ Create a script that derives from the `Module` class and `AddModule<YourNewModule>()` from another script.
  From here you can access your new module script by calling `GetModule<YourNewModule>()` anywhere in your project.
  
- ```cs
-private void AddBaselineModules()
+ ```'cs
+private void Start()
 {
-    AddModule<SceneModule>();
+    blu.App.AddModule<TestModule>();
+    blu.App.GetModule<TestModule>().DoSomething();
 }
- 
- ```
- 
-````cs
-App.GetModule<SceneModule>().SwitchScene("Level 2");
 ````
  
 <!-- LICENSE -->
