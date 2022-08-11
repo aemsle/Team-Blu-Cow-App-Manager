@@ -1,0 +1,14 @@
+{
+    "name": "com.blu.bluappmanager",
+    "version": "1.0.0",
+    "displayName": "Blu App Manager",
+    "description": "A simple way to access singletons globally in a similar way to getting components",
+   "keywords": [
+      "Singleton"
+    ],
+    "author": {
+      "name": "Adam Emslie",
+      "email": "aemslie00@gmail.com",
+      "url": "https://github.com/aemsle"
+    }
+ }
